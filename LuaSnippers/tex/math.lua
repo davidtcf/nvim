@@ -85,10 +85,15 @@ s("ap", fmt([[\approxi{<>}]],{i(1)},{delimiters="<>"})),
 
 s("dr", fmt([[\dr{<>}]],{i(1)},{delimiters="<>"})),
 
-s("ex", fmt([[\ex{<>}]],{i(1)},{delimiters="<>"})),
+s("rm", fmt([[\remark{<>}{
+  <>
+}
+]],{i(1),i(2)},{delimiters="<>"})),
 
-s("rm", fmt([[\rmkb{<>}]],{i(1)},{delimiters="<>"}))
-
+s("ex", fmt([[\example{<>}{
+  <>
+}
+]],{i(1),i(2)},{delimiters="<>"}))
 
 }
 
