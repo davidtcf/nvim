@@ -76,16 +76,19 @@ s("thm", fmt([[\thmr{<>}{
 
 s("lem", fmt([[\lem{<>}{
     <>
-]],{i(1),i(2)},{delimiters="<>"})),
-
-s("cor", fmt([[\cor{<>}{
-  <>
 }
 ]],{i(1),i(2)},{delimiters="<>"})),
 
-s("pop", fmt([[\prop{<>}{
-    <>
-  }
-  ]],{i(1),i(2)},{delimiters="<>"}))
+s("pf", fmt([[\pf{<>}]],{i(1)},{delimiters="<>"})),
+
+s("ap", fmt([[\approxi{<>}]],{i(1)},{delimiters="<>"})),
+
+s("dr", fmt([[\dr{<>}]],{i(1)},{delimiters="<>"})),
+
+s("ex", fmt([[\ex{<>}]],{i(1)},{delimiters="<>"})),
+
+s("rm", fmt([[\rmkb{<>}]],{i(1)},{delimiters="<>"}))
+
+
 }
 
